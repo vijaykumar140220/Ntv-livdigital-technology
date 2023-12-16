@@ -31,11 +31,11 @@
     z-index: 99;
 }
 .final{
-    background-color: rgb(52, 100, 230);
+    background-color: #2124B1;
     display: none;
 }
 .final-one{
-    background-color: rgb(52, 100, 230);
+    background-color: #2124B1;
     display: block;
 }
 
@@ -72,9 +72,6 @@
     background-color: white;
     color: #1D1D27;
 }
-.contact-details h6{
-    color: white;
-}
 .final-one .contact-details h1{
     font-size: 1rem;
 }
@@ -94,6 +91,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.final-one h6{
+    font-size: 1rem;
+    color: white;
+}
+.final-one h6:hover{
+    padding: 8px 12px;
+    border: 2px solid black;
 }
 
 
@@ -246,8 +251,13 @@ h6,
         align-items: center;
     }
     .paynow h6{
-        font-size: 0.7rem;
+        font-size: 1rem;
         margin: 10px 30px;
+        color: white;
+    }
+    .paynow h6:hover{
+        padding: 5px;
+        border: 2px solid black;
     }
     .contact-details p label{
         margin: 10px 10px;
